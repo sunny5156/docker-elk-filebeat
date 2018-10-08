@@ -1,5 +1,4 @@
 FROM docker.elastic.co/kibana/kibana:6.4.1
-RUN yum install -y zip  unzip
 
 ADD Kibana_Hanization.tar /var/
 
