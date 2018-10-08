@@ -5,5 +5,5 @@ ADD Kibana_Hanization.tar /var/
 RUN cd /var/ \
 	&& tar -xvf  Kibana_Hanization.tar \
 	&& cd ./Kibana_Hanization/ \
-	&& python main.py /opt/kibana
+	&& python main.py /opt/kibana/
 	
